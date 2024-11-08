@@ -17,7 +17,8 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 65px);
   grid-template-rows: repeat(8, 65px);
-  border: solid hsl(263, 98%, 19%) 10px;
+  border: solid transparent 10px;
+  border-image: linear-gradient(215deg, black, hsl(240, 98%, 19%)) 1;
   font-size: larger;
   place-content: center;
   place-items: center;
